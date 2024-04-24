@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Website</title>
+    <style>
+        /* CSS styles for the page */
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        .content {
+            margin: 20px;
+        }
+        
+        .department {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .department img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        /* Adjusted styles for better contrast */
+        body {
+            color: #000;
+        }
+        
+        header {
+            color: #fff;
+        }
+        
+        .department h2 {
+            color: #000;
+        }
+        
+        .department p {
+            color: #333;
+        }
+        
+        a {
+            color: #333;
+        }
+        
+        /* Form styles */
+        form {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        
+        form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        form input[type="text"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-bottom: 10px;
+        }
+        
+        form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="content">
+        <div class="department">
+            <img src="department3.jpg" alt="Department 3">
+            <div>
+                <h2>Department 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod, nunc at aliquet ultricies, nunc nunc tincidunt urna, id aliquet nunc nunc in justo.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+        
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+    <footer>
+        &copy; 2022 Medical Website. All rights reserved.
+    </footer>
+</body>
+</html>
